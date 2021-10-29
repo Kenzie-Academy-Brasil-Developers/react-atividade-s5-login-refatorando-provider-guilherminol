@@ -2,8 +2,8 @@ import Button from "../Button";
 import { useHistory } from "react-router";
 import { useAuthContext } from "../../Providers/Auth";
 const Dashboard = () => {
+  const history = useHistory();
   const { Logout } = useAuthContext();
-
   return (
     <>
       <Button onClick={Logout}>Log Out</Button>

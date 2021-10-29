@@ -45,7 +45,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
     setAuthToken("");
 
-    history.push("/login");
+    history.push("/");
   };
 
   return (
